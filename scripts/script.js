@@ -1,8 +1,8 @@
 'use strict'
+
 let container = document.getElementById("container")
 let number = document.getElementById("number")
 number.addEventListener("input",generate)
-/*let user = prompt("Please enter a value between 0-100").value*/
 
 function generate(e){
     container.innerHTML= ""
@@ -15,7 +15,8 @@ function generate(e){
     }
 
 }
-/*
+
+
 let i=user
 if (i==user) {
 
@@ -25,7 +26,7 @@ if (i==user) {
     box.classList.add("mystyle")
     
 }
-*/
+
 
 
 /*"use strict";
@@ -56,13 +57,30 @@ function buyItem(e){
     alert("You clicked" + e.target.innerHTML)    
 
 }
+*/
+/*
+function smallest(x,y,z) {
 
+    return Math.min(x,y,z);
+}
+console.log(smallest(2,4,7))
+console.log(smallest(10,20,-9))
+console.log(smallest(0,10,100))
+*/
 
+/*let input = parseInt(prompt("Please enter a number"))
+let exponent = parseInt(prompt("Please enter an exponent"))
 
+let exponentiation=(input,exponent)=> input ** exponent;
 
+console.log(exponentiation(input,exponent))*/
 
+/* let exponentiation=(input,exponent)=> input ** exponent;
 
+Will replace: 
 
-
-
+function exponentiation(input,exponent) {
+   
+    return (input ** exponent);
+}
 */
