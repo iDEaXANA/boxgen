@@ -2,30 +2,28 @@
 
 let container = document.getElementById("container")
 let number = document.getElementById("number")
-number.addEventListener("input",generate)
+number.addEventListener("mouseup",generate)
 
 function generate(e){
     container.innerHTML= ""
     for (let i=0; i<e.target.value; i++)
     {
     let box = document.createElement("div")
-    box.innerHTML = "Hello"
+    box.innerHTML = "Box"
     container.appendChild(box)
     box.classList.add("mystyle");
     }
-
 }
 
+// let i=user   // Don't remember what this was for...
+// if (i==user) {
 
-let i=user
-if (i==user) {
-
-    let box = document.createElement("div")
-    box.innerHTML = "Hello"
-    container.appendChild(box)
-    box.classList.add("mystyle")
+//     let box = document.createElement("div")
+//     box.innerHTML = "Hello"
+//     container.appendChild(box)
+//     box.classList.add("mystyle")
     
-}
+// }
 
 
 
